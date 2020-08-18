@@ -31,7 +31,7 @@ public class News  {
 	 private void notifyObservers() {
 		// TODO Auto-generated method stub
 		for(Observer1 o:observers){
-			System.out.println("Test ");
+			System.out.println("Test 1S");
 			o.update();
 		}
 		
